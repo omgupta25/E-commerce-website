@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+body {
+    background-color: #eee;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeee;
+    /* padding: 22px; */
+    box-shadow: 0px 2px 2px 2px rgb(162, 162, 162);
+}
+
+nav ul li {
+    list-style: none;
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    margin-inline: 22px;
+    font-size: 20px;
+    cursor: pointer;;
+}
+
+#Home {
+    color: rgb(5, 167, 167);
+}
+
+ul li a:hover {
+    color: rgb(5, 167, 167);
+    border-bottom: 2px solid rgb(4, 138, 138);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 700;
+}
+
+.img {
+    margin: 10px 0 10px 50px;
+}
+
+ul li img {
+    font-size: 22px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+
+.main .mainText {
+    margin-top: 140px;
+    font-size: 25px;
+}
+
+.mainText h1 {
+    font-size: 64px;
+}
+
+.mainText .top {
+    color: rgb(4, 138, 138);
+}
+
+.mainText button {
+    width: 145px;
+    height: 40px;
+    background-color: rgb(4, 140, 140);
+    border: none;
+    font-size: 22px;
+    color: white;
+}
+
+.mainText button:hover {
+    border: 2px solid aqua;
+}
+
+.mart .head h1 {
+    text-align: center;
+    padding: 33px;
+    margin-top: 22px;
+    font-size: 50px;
+}
+
+#martWomen .head h1 {
+    text-align: center;
+    padding: 33px;
+    margin-top: 22px;
+    font-size: 50px;
+}
+
+.mart2 .head h1 {
+    text-align: center;
+    padding: 33px;
+    margin-top: 22px;
+    font-size: 50px;
+}
+
+.head span {
+    color: rgb(2, 164, 164);
+}
+
+.card {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 120px;
+}
+
+.card .crd {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    margin-inline: 11px;
+}
+
+.crd img {
+    width: 85%;
+    margin-top: 22px;
+    border-radius: 10px;
+}
+
+.crdText {
+    margin: 10px;
+}
+
+.crdText svg {
+    color: gold;
+    margin: 5px;
+}
+
+.crdText button {
+    background-color: rgb(4, 140, 140);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+.box {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15vw;
+    margin-bottom: 50px;
+}
+
+
+
+.about{
+    display: none;
+}
+
+.aboutus {
+    background-color: rgb(1, 1, 42);
+    color: white;
+    padding: 56px;
+    font-size: 22px;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    background-color: #fff;
+    padding: 33px;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.me img {
+    width: 54%;
+}
+
+/* contact */
+
+.contact{
+    display: none;
+}
+
+.contactus {
+    background-color: rgb(1, 1, 42);
+    color: white;
+    padding: 56px;
+    font-size: 22px;
+}
+
+.contactme {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin-top: 5%;
+    padding: 22px;
+    background-color: white;
+    margin-left: 10%;
+}
+
+.contactText{
+    padding: 22px;
+    width: 600px;   
+}
+
+.contactText p{
+    padding: 10px;
+}
+
+.contactme img{
+    width: 55%;
+}
+
+.form{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.form input{
+    width: 300px;
+    height: 27px;
+    margin-top: 11px;
+    padding: 5px;
+}
+
+.form button{
+    width: 300px;
+    height: 36px;
+    background-color: rgb(2, 54, 54);
+    color: white;
+    font-size: 22px;
+    border: none;
+    margin-top: 22px;
+}
+
+.blog {
+    height: 500px;
+    width: 350px;
+    background-color: white;
+}
+
+.blog img {
+    width: 250px;
+    height: 330px;
+    margin: 22px;
+    border-radius: 10px;
+}
+
+.blogText {
+    margin: 5px;
+    
+}
+
+.blogText p {
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+.blogText a {
+    text-decoration: none;
+    background-color: rgb(2, 164, 164);
+    color: white;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.bloga {
+    height: 500px;
+    width: 350px;
+    background-color: white;
+}
+
+.bloga img {
+    width: 250px;
+    height: 330px;
+    margin: 22px;
+    border-radius: 10px;
+}
+
+.letter {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(4, 4, 100);
+    padding: 44px;
+    margin-top: 50px;
+}
+
+.inp {
+    display: flex;
+}
+
+.inp input {
+    width: 330px;
+    height: 33px;
+    outline: none;
+    font-size: 18px;
+}
+
+.inp button {
+    width: 100px;
+    height: 36px;
+    background-color: rgb(2, 173, 173);
+    color: white;
+    border: none;
+}
+
+.footer {
+    display: inline-block;
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 170px;
+    padding: 10px;
+}
+
+
+
+.footerText p {
+    padding: 11px;
+}
+
+/* cart */
+
+
+.cart{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.cartText{
+    padding: 22px;
+    margin-top: 12px;
+}
+
+.cartText p{
+    margin-top: 12px;
+}
+
+.cartText h2{
+    margin-top: 11px;
+}
+
+.cartText .btn button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(255, 89, 0);
+    color: #fff;
+    border: none;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top: 22px;
+}
+
+.cartText .back{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(4, 81, 81);
+    color: #fff;
+    border: none;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top: 22px;
+}
+
+@media screen and (max-width: 1356px) {
+    /* nav ul li a{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .mainText{
+        margin-left: 236px;
+    }
+
+    .main img{
+        margin-left: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 430px) {
+    
+    .mainText{
+        margin-left: 236px;
+    }
+
+    .main img{
+        margin-left: 20px;
+    }
+    
+    nav{
+        width: 100%;
+    }
+    .crd{
+        margin-left: 15vw;
+    }
+
+    .head h1{
+        margin-left: 27vw;
+    }
+}
